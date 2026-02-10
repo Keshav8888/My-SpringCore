@@ -1,5 +1,5 @@
 package com.my.spring;
-
+to delete
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
