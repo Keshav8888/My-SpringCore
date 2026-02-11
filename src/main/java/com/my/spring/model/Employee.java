@@ -10,7 +10,6 @@ public class Employee {
 	public Employee() {
 		super();
 		System.out.println("Employee.Employee()");
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Employee(int id, String name, String gender, Address address) {
@@ -27,6 +26,7 @@ public class Employee {
 
 	public void setAddress(Address address) {
 		this.address = address;
+		System.out.println("Employee.setAddress()");
 	}
 
 	public int getId() {
